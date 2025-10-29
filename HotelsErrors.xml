@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotel>
   <Hotel Rating="4.2">
     <Name>Westin</Name>
+    <Name>Dupe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -9,9 +10,7 @@
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
   </Hotel>
 
   <!-- Add at least 10 more Hotel entries with real data -->
-</Hotels>
+</Hotel>
