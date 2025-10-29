@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- (1) Root name Hotel instead of Hotels -->
 <Hotel>
-  <Hotel Rating="4.2">
+  <!-- (2) Missing required attribute -->
+  <Hotel>
     <Name>Westin</Name>
-    <Name>Dupe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -10,7 +11,134 @@
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
   </Hotel>
 
-  <!-- Add at least 10 more Hotel entries with real data -->
+  <!-- (3) Missing phone element -->
+  <Hotel Rating="4.5">
+    <Name>Crescent Hotel &amp; Spa</Name>
+    <!-- PHONE MISSING -->
+    <Address NearestAirport="Northwest Arkansas National Airport">
+      <Number>75</Number>
+      <Street>Prospect Ave</Street>
+      <City>Eureka Springs</City>
+      <State>AR</State>
+      <Zip>72632</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (5) 2 names -->
+  <Hotel Rating="4.4">
+    <Name>The Stanley Hotel</Name>
+    <Name>Duplicate Hotel Name</Name>
+    <Phone>970-577-4000</Phone>
+    <Address NearestAirport="Denver International Airport">
+      <Number>333</Number>
+      <Street>Wonderview Ave</Street>
+      <City>Estes Park</City>
+      <State>CO</State>
+      <Zip>80517</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (4) Address tag no closed -->
+  <Hotel Rating="4.3">
+    <Name>The Emily Morgan Hotel</Name>
+    <Phone>210-225-5100</Phone>
+    <Address NearestAirport="San Antonio International Airport">
+      <Number>705</Number>
+      <Street>E Houston St</Street>
+      <City>San Antonio</City>
+      <State>TX</State>
+      <Zip>78205</Zip>
+    <!-- MISSING </Address> -->
+  </Hotel>
+
+  <!-- Remaining for completeness -->
+  <Hotel Rating="4.6">
+    <Name>Omni Parker House</Name>
+    <Phone>617-227-8600</Phone>
+    <Address NearestAirport="Logan International Airport">
+      <Number>60</Number>
+      <Street>School St</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02108</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Hollywood Roosevelt</Name>
+    <Phone>323-856-1970</Phone>
+    <Address NearestAirport="Los Angeles International Airport">
+      <Number>7000</Number>
+      <Street>Hollywood Blvd</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90028</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>The Marshall House</Name>
+    <Phone>912-644-7896</Phone>
+    <Address NearestAirport="Savannah/Hilton Head International Airport">
+      <Number>123</Number>
+      <Street>E Broughton St</Street>
+      <City>Savannah</City>
+      <State>GA</State>
+      <Zip>31401</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Hotel del Coronado</Name>
+    <Phone>619-435-6611</Phone>
+    <Address NearestAirport="San Diego International Airport">
+      <Number>1500</Number>
+      <Street>Orange Ave</Street>
+      <City>Coronado</City>
+      <State>CA</State>
+      <Zip>92118</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Jekyll Island Club Resort</Name>
+    <Phone>912-635-2600</Phone>
+    <Address NearestAirport="Jacksonville International Airport">
+      <Number>371</Number>
+      <Street>Riverview Dr</Street>
+      <City>Jekyll Island</City>
+      <State>GA</State>
+      <Zip>31527</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hotel Chelsea</Name>
+    <Phone>212-483-1010</Phone>
+    <Phone>212-483-1020</Phone>
+    <Address NearestAirport="LaGuardia Airport">
+      <Number>222</Number>
+      <Street>W 23rd St</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10011</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Hawthorne Hotel</Name>
+    <Phone>978-744-4080</Phone>
+    <Address NearestAirport="Boston Logan International Airport">
+      <Number>18</Number>
+      <Street>Washington Square W</Street>
+      <City>Salem</City>
+      <State>MA</State>
+      <Zip>01970</Zip>
+    </Address>
+  </Hotel>
 </Hotel>
+
